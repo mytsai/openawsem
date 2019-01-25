@@ -2,7 +2,7 @@
 We are still in beta. all codes are subject to changes.
 
 An implementation of the AWSEM coarse-grained protein folding forcefield in OpenMM
-(assuming anaconda is properly installed. If not, please go to link <a href="https://www.anaconda.com/download" target="_blank">example</a>)
+(assuming anaconda is properly installed. If not, please go to the <a href="https://www.anaconda.com/download" target="_blank">link</a>)
 
 Create python3 environment
 ```
