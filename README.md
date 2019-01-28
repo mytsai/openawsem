@@ -45,6 +45,7 @@ Setup simulation folder
 ```
 python3 YOUR_OPENAWSEM_LOCATION/mm_create_project.py 1r69 --frag
 ```
+Note that the "--frag" can be negleted if no fragment memory is provided. The automation for generating fragment memory file is currently under development.
 
 Run the simulation:
 ```
