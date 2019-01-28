@@ -40,17 +40,18 @@ conda install -c omnia mdtraj
 Example:
 1r69.
 
-steup simulation folder (This step sets the context for running simulation (mm_run.py) and analysis (mm_analysis.py)):
+Setup simulation folder 
+(This step sets the context for running simulation (mm_run.py) and analysis (mm_analysis.py)):
 ```
 python3 YOUR_OPENAWSEM_LOCATION/mm_create_project.py 1r69 --frag
 ```
 
-run the simulation:
+Run the simulation:
 ```
 python3 mm_run.py 1r69
 ```
 
-compute energy and Q:
+Compute energy and Q:
 ```
 python3 mm_analysis.py 1r69 > energy.dat
 ```  
